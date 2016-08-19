@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://send2mail2/locale/send2mail2.dtd">
+
+<overlay id="send2mail2-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="text/javascript" src="chrome://send2mail2/content/abContactsPanel_overlay.js"/>
+    <script type="text/javascript">
+
+    </script>
+
+    <vbox id="results_box" >
+		<groupbox>
+		  <caption label="&send2mail2.group-box.label;"/>
+				<grid>
+					<columns>
+						<column flex="1" />
+						<column flex="1" />
+						<column flex="1" />
+					</columns>
+					<rows>
+						<row>
+		        			<button id="send2mail2-button-to" label="to" oncommand="send2mail2('addr_to');" style="min-width:25px;" />
+							<button id="send2mail2-button-cc" label="cc"	oncommand="send2mail2('addr_cc');" style="min-width:25px;" />
+							<button id="send2mail2-button-bcc" label="bcc" oncommand="send2mail2('addr_bcc');" style="min-width:25px;" />
+						</row>
+					</rows>
+				</grid>
+		</groupbox>
+    </vbox>
+</overlay>
