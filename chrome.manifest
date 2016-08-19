@@ -1,0 +1,8 @@
+content send2mail2 content/
+skin send2mail2 classic/1.0 skin/
+
+locale send2mail2 en-US locale/en-US/
+locale send2mail2 en-US locale/de-DE/
+
+overlay chrome://messenger/content/addressbook/abContactsPanel.xul chrome://send2mail2/content/abContactsPanel_overlay.xul
+

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<Description about="urn:mozilla:install-manifest">
+    <em:id>send2mail2@rshain.de</em:id>
+    <em:version>0.2</em:version>
+    <em:type>2</em:type>
+
+    <!-- Target Application this theme can install into,
+        with minimum and maximum supported versions. -->
+    <em:targetApplication>
+      <Description>
+        <!-- Thunderbird -->
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>24.0.1</em:minVersion>
+        <em:maxVersion>38.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+
+    <!-- Front End MetaData -->
+    <em:name>SendToSecondEmail</em:name>
+    <em:description>This Extension lets you send Mails to both, first and second email addresses...</em:description>
+    <em:creator>Stefan Hain</em:creator>
+
+  </Description>      
+
+</RDF>
